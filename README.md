@@ -113,7 +113,7 @@ In the Mininet CLI (`mininet>`), you can simulate the link failure to demonstrat
 
 **Mininet Topology Startup**
 A screenshot of the terminal showing the successful execution of `sudo python3 topology.py`.
-![Mininet Topology Startup](screenshots/mininet_startup.jpg)
+![Mininet Topology Startup](screenshots/mininet_startup.jpeg)
 
 **Controller Connection**
 A screenshot of the POX terminal showing "connected datapath" logs for all three switches (S1, S2, S3).
