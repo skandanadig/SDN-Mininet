@@ -106,3 +106,16 @@ In the Mininet CLI (`mininet>`), you can simulate the link failure to demonstrat
   sudo mn -c
   ```
 - If POX throws a module not found error, make sure you properly copied `controller.py` into the `pox/ext/` folder, and that you are invoking `./pox.py controller`.
+
+## Evaluation Screenshots
+
+### Topology & Setup (4 Marks)
+
+**Mininet Topology Startup**
+A screenshot of the terminal showing the successful execution of `sudo python3 topology.py`.
+![Mininet Topology Startup](screenshots/mininet_startup.jpg)
+
+**Controller Connection**
+A screenshot of the POX terminal showing "connected datapath" logs for all three switches (S1, S2, S3).
+![Controller Connection](screenshots/controller_connection.jpg)
+
