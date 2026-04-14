@@ -58,7 +58,7 @@ cp ~/SDN-mininet/controller.py ~/pox/ext/
 cd ~/pox
 
 # Start POX with our custom extension
-./pox.py log.level --INFO ext.controller
+./pox.py log.level --INFO controller
 ```
 
 **Terminal 2 (Mininet Setup):**
@@ -105,4 +105,4 @@ In the Mininet CLI (`mininet>`), you can simulate the link failure to demonstrat
   ```bash
   sudo mn -c
   ```
-- If POX throws a module not found error, make sure you properly copied `controller.py` into the `pox/ext/` folder, and that you are invoking `./pox.py ext.controller`.
+- If POX throws a module not found error, make sure you properly copied `controller.py` into the `pox/ext/` folder, and that you are invoking `./pox.py controller`.
