@@ -23,9 +23,9 @@ class TriangleTopo(Topo):
         h2 = self.addHost('h2', ip='10.0.0.2/24', mac='00:00:00:00:00:02')
 
         # Add switches
-        s1 = self.addSwitch('s1', cls=OVSKernelSwitch, protocols='OpenFlow13')
-        s2 = self.addSwitch('s2', cls=OVSKernelSwitch, protocols='OpenFlow13')
-        s3 = self.addSwitch('s3', cls=OVSKernelSwitch, protocols='OpenFlow13')
+        s1 = self.addSwitch('s1', cls=OVSKernelSwitch)
+        s2 = self.addSwitch('s2', cls=OVSKernelSwitch)
+        s3 = self.addSwitch('s3', cls=OVSKernelSwitch)
 
         # Add links for Hosts
         self.addLink(h1, s1)
