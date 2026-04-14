@@ -119,3 +119,10 @@ A screenshot of the terminal showing the successful execution of `sudo python3 t
 A screenshot of the POX terminal showing "connected datapath" logs for all three switches (S1, S2, S3).
 ![Controller Connection](screenshots/controller_connection.jpg)
 
+### Connectivity Testing
+
+**Continuous Ping Test**
+Screenshots demonstrating stable connectivity and 0% packet loss between Host 1 and Host 2.
+![Ping Test - Running](screenshots/xterm_h1.jpg)
+![Ping Test - Results](screenshots/xterm_h1_end.png)
+
