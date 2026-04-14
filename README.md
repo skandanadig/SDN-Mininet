@@ -126,3 +126,15 @@ Screenshots demonstrating stable connectivity and 0% packet loss between Host 1 
 ![Ping Test - Running](screenshots/xterm_h1.jpg)
 ![Ping Test - Results](screenshots/xterm_h1_end.png)
 
+### Link Failure Detection & Recovery (4 Marks)
+
+**Automated Route Failover**
+A screenshot proving that the active link (`s1` -> `s3`) went down, temporarily halting the ping before the POX controller successfully redirected traffic via the STP backup route (Switch 2).
+![Link Failure Failover](screenshots/changeduetolinks1s3down.jpg)
+
+### Network Throughput Analysis (2 Marks)
+
+**Performance Metrics (Iperf)**
+A screenshot showcasing the final output and throughput capabilities of the dynamically managed SDN paths.
+![Iperf Bandwidth Tests](screenshots/final_output.jpg)
+
